@@ -1,2 +1,5 @@
 "use strict";
-console.log('Hi there');
+const doSomething = () => {
+    console.log('Hi there');
+};
+doSomething();

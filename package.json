@@ -1,0 +1,33 @@
+{
+    "name": "typed-sorter",
+    "version": "1.0.0",
+    "description": "Sorting algorithm made in TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "start:build": "tsc -w",
+        "start:run": "nodemon dist/index.js",
+        "start": "concurrently npm:start:*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iamprincesly/typed-sorter.git"
+    },
+    "keywords": [
+        "typescript",
+        "sorting",
+        "algorithm",
+        "node.js"
+    ],
+    "author": "Sylvanus Etim <iamprincesly@gmail.com> (https://github.com/iamprincesly/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/iamprincesly/typed-sorter/issues"
+    },
+    "homepage": "https://github.com/iamprincesly/typed-sorter#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "concurrently": "^7.0.0"
+    }
+}
